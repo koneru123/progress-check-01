@@ -1,4 +1,3 @@
-
 const sumFirstAndLastArray = function(arr) {
   // Instructions:
   // return the value of the first element and last element summed
@@ -59,7 +58,7 @@ const result = add5(2) === 7 ? 'true' : 'false';
 //console.log(result);
 // Invoke the addTwoNums function to make the following pass.
 console.assert(`${result}`, 'Should Return 7');
-*/
+
 
 const concatTwoStrings = function (stringOne, stringTwo)  {
   // Instructions:
@@ -86,13 +85,14 @@ const countOccurences = (arr, val) => {
   // i.e. if given ["cookie"], "cookie" you would return { "cookie": 1 }
   // your code here
   let obj = {};
+  let count = 0;
   for(let i = 0; i < arr.length; i++) {
-    if(obj[arr[i]] !== val) {
-      obj[arr[i]] = 0;
-    } else {
-      obj[arr[i]]++;
+    if(arr[i] === val) {
+      count ++;
+      obj[arr[i]] = count;
     }
+
   }
   return obj;
 };
-
+//console.log(countOccurences(['cookie', 'biscuit', 'cookie', 'choclate'], 'cookie'));
