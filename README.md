@@ -13,4 +13,4 @@
 - [ ] Fork and clone this repo
 - [ ] Follow the instructions in the comments and write code everywhere asked
 - [ ] Push your work to your fork
-- [ ] Do NOT push any work to your fork after 10:00 AM Tuesda morning unless explicitly instructed to do so DIRECTLY by HREXT staff. If you forgot to push your work by 10:00 AM please reach out to hrext.communication@galvanize.com for further instruction.
+- [ ] Do NOT push any work to your fork after 10:00 AM Tuesday morning unless explicitly instructed to do so DIRECTLY by HREXT staff. If you forgot to push your work by 10:00 AM please reach out to hrext.communication@galvanize.com for further instruction.
